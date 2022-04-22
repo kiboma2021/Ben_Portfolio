@@ -1,63 +1,49 @@
-header {
+.container {
+  background-color: #e5e5e5;
+  width: 389px;
+}
+
+main nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1.5rem;
+  background-color: #fff;
+  background-size: 100vw;
+}
+
+.flex {
   display: flex;
 }
 
-.logo {
-  position: static;
-  width: 76px;
-  height: 20px;
-  left: 12px;
-  top: 10px;
-  margin-right: 15%;
+a {
+  text-decoration: none;
 }
 
-.logo2 {
-  height: 50px;
+main {
+  background-color: #fff;
+  background-image: url("../img/header-shapes-mobile.png");
+  background-repeat: no-repeat;
+  margin: 1.625rem 0;
+  height: 36.697rem;
+  border-bottom-left-radius: 80px;
+  background-size: 100vw;
 }
 
-.icons {
-  margin: 10px;
-}
-
-.intro {
-  position: static;
-  width: 327px;
-  height: 150px;
-  left: 24px;
-  top: 114px;
-
-  /* Header / 2 */
+h1 {
+  height: 9.375rem;
+  width: 15rem;
+  margin: 0.75rem 1.5rem;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
   line-height: 52px;
-
-  /* or 130% */
-
-  display: flex;
-  align-items: center;
-
-  /* Neutrals/N800 */
-
-  color: #172b4d;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 12px;
 }
 
-.intro2 {
-  position: static;
-  width: 327px;
-  height: 146px;
-  left: 24px;
-  top: 276px;
-
-  /* Body / 2 */
-
+main p {
+  width: 20.438rem;
+  margin: 0 1.5rem;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -65,37 +51,32 @@ header {
 
   /* or 150% */
 
-  /* Neutrals/N600 */
-
   color: #344563;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  margin: 12px;
 }
 
-.smedia {
-  position: static;
-  width: 117px;
-  height: 24px;
-
-  /* Body / 2 - Bolder */
-
+h5 {
+  margin: 0.75rem 1.5rem;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-
-  /* identical to box height, or 150% */
-
-  /* Primary/B300 */
-
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #7f8cff;
+  width: 7.313rem;
+  height: 1.5rem;
+}
 
-  /* Inside auto layout */
+ul {
+  list-style-type: none;
+}
 
-  flex: none;
-  margin: 8px;
+main ul {
+  width: 9.75rem;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1.5rem;
+}
+
+main li {
+  margin-left: 0;
 }
