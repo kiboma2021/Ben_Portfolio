@@ -8,27 +8,13 @@ header {
   height: 20px;
   left: 12px;
   top: 10px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  /* identical to box height, or 111% */
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  /* Primary/B400 */
-  color: #6070FF;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 0px;
+  margin-right: 15%;
 }
 
+.logo2 {
+    margin-left:0px; 
+    height: 50px;
+  }
 
 .intro {
   position: static;
@@ -59,7 +45,6 @@ header {
   order: 0;
   flex-grow: 0;
   margin: 12px 0px;
-
 }
 
 .intro2 {
@@ -88,7 +73,6 @@ header {
   order: 1;
   flex-grow: 0;
   margin: 12px 0px;
-
 }
 .smedia {
   position: static;
@@ -116,7 +100,9 @@ header {
   order: 0;
   flex-grow: 0;
   margin: 0px 8px;
-
 }
 
+.icons {
+  margin: 10px;
+  }
 
