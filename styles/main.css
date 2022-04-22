@@ -15,6 +15,10 @@ header {
   height: 50px;
 }
 
+.icons {
+  margin: 10px;
+}
+
 .intro {
   position: static;
   width: 327px;
@@ -35,14 +39,14 @@ header {
 
   /* Neutrals/N800 */
 
-  color: #172B4D;
+  color: #172b4d;
 
   /* Inside auto layout */
 
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px;
 }
 
 .intro2 {
@@ -52,25 +56,24 @@ header {
   left: 24px;
   top: 276px;
 
-/* Body / 2 */
+  /* Body / 2 */
 
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 
-/* or 150% */
+  /* or 150% */
 
-/* Neutrals/N600 */
+  /* Neutrals/N600 */
 
   color: #344563;
 
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 1;
-  margin: 12px 0px;
+  margin: 12px;
 }
 
 .smedia {
@@ -80,7 +83,6 @@ header {
 
   /* Body / 2 - Bolder */
 
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -90,15 +92,11 @@ header {
 
   /* Primary/B300 */
 
-  color: #7F8CFF;
+  color: #7f8cff;
 
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
-  margin: 0px 8px;
-}
-
-.icons {
-  margin: 10px;
+  margin: 8px;
 }
 
