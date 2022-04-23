@@ -1,9 +1,9 @@
-.container {
-  background-color: #e5e5e5;
+body {
+  background-color: #fff;
   width: 389px;
 }
 
-main nav {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
