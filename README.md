@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://ben-microverse-project.com)
+[Live Demo Link](https://livedemo.com)
 
 ## Getting Started
 
@@ -68,6 +68,3 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
