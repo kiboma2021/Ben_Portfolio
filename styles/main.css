@@ -17,26 +17,22 @@ header {
   height: 20px;
   left: 12px;
   top: 10px;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
 
   /* identical to box height, or 111% */
-  
   display: flex;
   align-items: center;
   text-align: center;
   
   /* Primary/B400 */
-  
   color: #6070ff;
   
   /* Inside auto layout */
-  
   flex: none;
-
 }
 
 .flex {
@@ -77,7 +73,6 @@ section p {
   line-height: 24px;
 
   /* or 150% */
-
   color: #344563;
 }
 
