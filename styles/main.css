@@ -12,7 +12,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: #fff;
   background-size: 100vw;
 }
 
@@ -45,7 +45,7 @@ a {
 }
 
 article {
-  background-color: #FFFFFF;
+  background-color: #fff;
   background-image: url(/imgs/header-shapes-mobile.png);
   background-repeat: no-repeat;
   background-position-y: 35px;
@@ -103,8 +103,7 @@ article ul {
   grid-template-columns: auto;
   width: 375px;
   border-radius: 16px;
-  padding: 16px;
-  
+  padding: 16px; 
 }
 
 .content {
@@ -133,7 +132,7 @@ article ul {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  background-color: #FFFFFF;
+  background-color: #fff;
   color: #344563;
   background-repeat: no-repeat;
   background-position: 16px 16px;
@@ -213,19 +212,19 @@ button {
   box-sizing: border-box;
   border-radius: 8px;
   color: #6070ff;
-  background-color: #FFFFFF;
+  background-color: #fff;
   margin-bottom: 28px;
   margin-left: 16px;
 }
 
 button:hover {
   background-color: #8189cd;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 button:active {
   background-color: #2230d2;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .show-case {
@@ -251,7 +250,7 @@ button:active {
 #about-me {
   flex-direction: column;
   width: 375px;
-  background: #FFFFFF;
+  background: #fff;
   display: flex;
   border-top-right-radius: 80px;
   margin-top: 114px;
@@ -328,7 +327,7 @@ h2 {
 }
 
 .lang-prog img {
- padding: 20px;
+  padding: 20px;
 }
 
 .hg li {
