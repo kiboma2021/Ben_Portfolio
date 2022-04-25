@@ -334,15 +334,24 @@ h2 {
   border-bottom: #dfe1e6 1px solid;
 }
 
+.container {
+  float: inline-start;
+}
+
 .html_float {
   float: left;
-  
+  margin: 12px;
+  padding: 12px;
 }
 
 .css_float {
   float: center;
+  margin: 12px;
+  padding: 12px;
 }
 
 .javascript_float {
   float: right;
+  margin: 12px;
+  padding: 12px;
 }
