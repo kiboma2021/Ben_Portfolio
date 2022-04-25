@@ -333,3 +333,16 @@ h2 {
 .hg li {
   border-bottom: #dfe1e6 1px solid;
 }
+
+.html_float {
+  float: left;
+  
+}
+
+.css_float {
+  float: center;
+}
+
+.javascript_float {
+  float: right;
+}
