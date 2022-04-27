@@ -372,6 +372,7 @@ footer > p {
   border-radius: 8px;
   margin: 20px;
   padding: 10px;
+  width: 320px;
 
 }
 
@@ -387,11 +388,19 @@ footer > p {
   
 }
 
-.bottom-line {
-  width: 134px;
-  height: 5px;
-  bottom: 8px;
-  background: #0D151E;
-  border-radius: 10px;
+.end-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;  
+}
 
+.form-btn:hover {
+  background-color:green;
+  color: #fff;
+}
+
+.form-btn:active {
+  background-color: yellow;
+  color: #fff;
 }
