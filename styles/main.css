@@ -191,7 +191,7 @@ article ul {
 footer {
   background-color: #6070ff;
   color: white;
-  background-image: url(/imgs/contact-form\ shapes-mobile.png);
+  background-image: url(/imgs/contact_form_shapes_mobile.png);
   background-repeat: no-repeat;
   background-position: right;
   width: 375px;
@@ -203,7 +203,7 @@ footer {
 }
 
 h3 {
-  color: white;
+  display: flex;
   text-align: center;
   padding-top: 100px;
   font-family: "Poppins", sans-serif;
@@ -211,6 +211,9 @@ h3 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+  align-items: center;
+  color: #fff;
+  justify-content: center;
 }
 
 footer > p {
