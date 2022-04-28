@@ -191,16 +191,21 @@ article ul {
 footer {
   background-color: #6070ff;
   color: white;
-  background-image: url(/imgs/header-shapes-mobile.png);
+  background-image: url(/imgs/contact-form\ shapes-mobile.png);
   background-repeat: no-repeat;
-  background-position-y: 35px;
+  background-position: right;
+  width: 375px;
+  height: 779px;
+  left: 0;
+  top: 5410px;
   border-top-left-radius: 80px;
+  margin-top: 113.85px;
 }
 
 h3 {
   color: white;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 100px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
