@@ -93,7 +93,6 @@
     line-height: 1.5rem;
     color: #396df2;
     width: 7.313rem;
-    height: 1.5rem;
   }
 
   ul {
@@ -492,7 +491,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 20px 20px 20px;
+    padding: 20px 20px 20px 0.01px;
   }
 
   .flexbox-container-lang {
@@ -545,7 +544,7 @@
     font-size: 16px;
     line-height: 24px;
     color: #396df2;
-    padding: 20px 20px 20px;
+    padding: 20px 20px 20px 0.01px;
   }
 
   .flexbox-item-4 {
@@ -558,18 +557,15 @@
   }
 
   button {
-    width: 20%;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #396df2;
+    width: 124px;
+    height: 48px;
+    border: 1px solid #6070ff;
+    box-sizing: border-box;
     border-radius: 8px;
+    color: #6070ff;
+    background-color: #fff;
+    margin-bottom: 28px;
+    margin-left: 16px;
   }
 
   button:hover {
@@ -651,7 +647,7 @@
     list-style-type: none;
     display: flex;
     width: 70%;
-    padding: 20px 20px 20px;
+    padding: 20px 20px 20px 0.01px;
   }
 
   .flexbox-item2-4 > a {
@@ -749,7 +745,7 @@
       align-items: center;  
       color: #344563;
       justify-content: space-between;
-      padding: 20px 20px 20px;
+      padding: 20px 20px 20px 0.01px;
       width: 80%;
     }
 
@@ -758,7 +754,7 @@
       grid-template-columns: auto auto auto auto;
       background-color: white;
       padding: 10px;
-      gap: 20px 20px 20px;
+      gap: 20px 20px 20px 0.01px;
       width: 100%;
     }
 
