@@ -260,7 +260,6 @@
     color: #6070ff;
     background-color: #fff;
     margin-bottom: 28px;
-    margin-left: 16px;
   }
 
   button:hover {
@@ -565,7 +564,6 @@
     color: #6070ff;
     background-color: #fff;
     margin-bottom: 28px;
-    margin-left: 16px;
   }
 
   button:hover {
@@ -653,7 +651,7 @@
   .flexbox-item2-4 > a {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     padding: 4px 12px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -662,7 +660,7 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     color: #6070ff;
-    margin: 10px;
+    margin-left: 10px;
     background: #ebebff;
     border-radius: 8px;
   }
