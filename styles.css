@@ -112,6 +112,7 @@
     width: 375px;
     border-radius: 16px;
     padding: 16px;
+    column-gap: 1px;
   }
 
   .content {
@@ -260,7 +261,6 @@
     color: #6070ff;
     background-color: #fff;
     margin-bottom: 28px;
-    margin-left: 16px;
   }
 
   button:hover {
@@ -491,7 +491,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 20px 20px 20px 0.01px;
+    box-sizing: border-box;
   }
 
   .flexbox-container-lang {
@@ -565,7 +565,6 @@
     color: #6070ff;
     background-color: #fff;
     margin-bottom: 28px;
-    margin-left: 16px;
   }
 
   button:hover {
@@ -593,15 +592,15 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin: 100px;
+    margin: 140px;
     background-color: white;
     border-radius: 24px;
   }
 
   .flexbox-item2 {
-    width: 80%;
+    width: 100%;
     background-color: white;
-    margin-left: 50px;
+    margin-left: 20px;
   }
 
   .flexbox-item2-1 {
@@ -662,7 +661,7 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     color: #6070ff;
-    margin: 10px;
+    margin-right: 10px;
     background: #ebebff;
     border-radius: 8px;
   }
@@ -733,6 +732,7 @@
   .flexbox-item4 {
     width: 80%;
     background-color: white;
+    align-items: flex-start;
   }
 
   .flexbox-item4-1 {
@@ -742,7 +742,7 @@
     font-size: 20px;
     line-height: 24px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     color: #344563;
     justify-content: space-between;
     padding: 20px 20px 20px 0.01px;
@@ -759,7 +759,6 @@
   }
 
   .grid-item {
-    position: static;
     width: 40%;
     height: 120%;
     background: #f7f7f9;
@@ -767,13 +766,12 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0.01px 12px;
   }
 
   .images1 {
-    padding: 20px;
-    width: 95%;
-    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin: 16px;
   }
 
   .images1:hover {
