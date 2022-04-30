@@ -853,7 +853,6 @@
     align-items: center;
     background: #fff;
     border-radius: 8px;
-    display: flex;
     padding: 12px 16px;
     width: 40%;
     justify-content: center;
@@ -869,7 +868,7 @@
     color: #fff;
   }
 
-  .bullet { 
+  .bullet {
     font-family: "Poppins", sans-serif;
     list-style-type: none;
     font-style: normal;
