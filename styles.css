@@ -593,7 +593,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin: 100px;
+    margin: 140px;
     background-color: white;
     border-radius: 24px;
   }
@@ -601,7 +601,7 @@
   .flexbox-item2 {
     width: 80%;
     background-color: white;
-    margin-left: 50px;
+    margin-left: 20px;
   }
 
   .flexbox-item2-1 {
@@ -633,7 +633,7 @@
   }
 
   .flexbox-item2-3 {
-    width: 80%;
+    width: 88%;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -771,9 +771,9 @@
   }
 
   .images1 {
-    padding: 20px;
-    width: 95%;
-    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin: 16px;
   }
 
   .images1:hover {
