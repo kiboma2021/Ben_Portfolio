@@ -1,9 +1,10 @@
 @media all and (max-width: 768px) {
   .mobile {
-  display: block;
+    display: block;
   }
+
   .desktop {
-  display: none;
+    display: none;
   }
 
   body {
@@ -413,17 +414,16 @@
   }
 }
 
-
 @media all and (min-width: 768px) {
   .desktop {
-  display: block;
+    display: block;
   }
+
   .mobile {
-  display: none;
+    display: none;
   }
 
   body {
-    background-color: white;
     width: 100%;
     background-color: #e5e5e5;
   }
@@ -484,7 +484,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 70px 50px 130px 0px;
+    padding: 70px 50px 130px;
   }
 
   .flexbox-container-dd {
@@ -492,8 +492,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 20px 20px 20px 0px;
-
+    padding: 20px 20px 20px;
   }
 
   .flexbox-container-lang {
@@ -546,7 +545,7 @@
     font-size: 16px;
     line-height: 24px;
     color: #396df2;
-    padding: 20px 20px 20px 0px;
+    padding: 20px 20px 20px;
   }
 
   .flexbox-item-4 {
@@ -592,7 +591,6 @@
 
   .flex > li {
     padding-right: 30px;
-    padding-left: 0px;
   }
 
   .flexbox-container-double {
@@ -624,7 +622,7 @@
   .flexbox-item2-2 {
     width: 70%;
     display: flex;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0px 20px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -635,7 +633,7 @@
 
   .flexbox-item2-2 > a {
     padding-right: 20px;
-    color: #6b778c
+    color: #6b778c;
   }
 
   .flexbox-item2-3 {
@@ -653,7 +651,7 @@
     list-style-type: none;
     display: flex;
     width: 70%;
-    padding: 20px 20px 20px 0px;
+    padding: 20px 20px 20px;
   }
 
   .flexbox-item2-4 > a {
@@ -751,7 +749,7 @@
       align-items: center;  
       color: #344563;
       justify-content: space-between;
-      padding: 20px 20px 20px 0px;
+      padding: 20px 20px 20px;
       width: 80%;
     }
 
@@ -760,7 +758,7 @@
       grid-template-columns: auto auto auto auto;
       background-color: white;
       padding: 10px;
-      gap: 20px 20px 20px 0px;
+      gap: 20px 20px 20px;
       width: 100%;
     }
 
