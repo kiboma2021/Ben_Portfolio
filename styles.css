@@ -618,12 +618,12 @@
   .flexbox-item2-2 {
     width: 70%;
     display: flex;
-    padding: 20px 0px 20px;
+    padding: 20px 0.01px 20px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 24px;  
+    line-height: 24px;
     color: #6b778c;
   }
 
@@ -699,7 +699,7 @@
     display: flex;
     align-items: center;
     color: #091e42;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
   }
 
   .flexbox-item3-2 {
@@ -710,7 +710,7 @@
     font-size: 16px;
     line-height: 24px;
     color: #344563;
-    padding-bottom: 20px;    
+    padding-bottom: 20px;
   }
 
   .flexbox-item3-3 {
@@ -722,53 +722,53 @@
     font-size: 16px;
     line-height: 24px;
     color: #396df2;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
   }
 
   .flexbox-item3-4 > a {
-      padding-right: 20px;
-      padding-top: 20px;
-    }
+    padding-right: 20px;
+    padding-top: 20px;
+  }
 
-    .flexbox-item4 {
-      width: 80%;
-      background-color: white;
-    }
+  .flexbox-item4 {
+    width: 80%;
+    background-color: white;
+  }
 
-    .flexbox-item4-1 {
-      font-family: "Poppins", sans-serif;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 20px;
-      line-height: 24px; 
-      display: flex;
-      align-items: center;  
-      color: #344563;
-      justify-content: space-between;
-      padding: 20px 20px 20px 0.01px;
-      width: 80%;
-    }
+  .flexbox-item4-1 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px; 
+    display: flex;
+    align-items: center;  
+    color: #344563;
+    justify-content: space-between;
+    padding: 20px 20px 20px 0.01px;
+    width: 80%;
+  }
 
-    .grid-container {
-      display: grid;
-      grid-template-columns: auto auto auto auto;
-      background-color: white;
-      padding: 10px;
-      gap: 20px 20px 20px 0.01px;
-      width: 100%;
-    }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+    padding: 10px;
+    gap: 20px 20px 20px 0.01px;
+    width: 100%;
+  }
 
-    .grid-item {
-      position: static;
-      width: 40%;
-      height: 120%;
-      background: #f7f7f9;
-      border-radius: 8px;
-      flex: none;
-      order: 0;
-      flex-grow: 0;
-      margin: 0px 12px;
-    }
+  .grid-item {
+    position: static;
+    width: 40%;
+    height: 120%;
+    background: #f7f7f9;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0.01px 12px;
+  }
 
   .images1 {
     padding: 20px;
@@ -805,7 +805,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 52px; 
+    line-height: 52px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -827,7 +827,6 @@
     color: #ebebff;
   }
 
-
   .form {
     display: flex;
     align-items: center;
@@ -846,7 +845,6 @@
     border-radius: 8px;
     display: flex;
     flex-direction: row;
-    align-items: center;
     padding: 12px 16px;
     width: 40%;
     justify-content: center;
@@ -872,4 +870,3 @@
     color: #344563;
   }
 }
-
