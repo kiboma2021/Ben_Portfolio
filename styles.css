@@ -777,12 +777,12 @@
   }
 
   .images1:hover {
-    animation: left-to-right 1s;
+    animation: left-to-bottom 3s;
   }
 
-  @keyframes left-to-right {
+  @keyframes left-to-bottom {
     100% {
-      transform: translate(100%);
+      transform: translate(50%);
     }
   }
 
@@ -878,3 +878,4 @@
     color: #344563;
   }
 }
+
