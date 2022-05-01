@@ -491,14 +491,15 @@
     background-repeat: no-repeat;
     background-size: 100%;
     animation-name: first-page;
-    animation-duration: 10s;
+    animation-duration: 20s;
+    animation-iteration-count: 1;
   }
 
   @keyframes first-page {
     0% {background-color: #fff;}
     25% {background-color: red;}
-    75% {background-color: green;}
-    100% {background-color: yellow;}
+    50% {background-color: green;}
+    75% {background-color: yellow;}
   }
 
   .flexbox-container {
