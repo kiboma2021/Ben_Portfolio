@@ -447,6 +447,14 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
+    transition: font-size 2s;
+    transition-delay: 0s;
+    transition-duration: 2s;
+  }
+
+  .logo:hover {
+    color: red;
+    font-size: 36px;
   }
 
   header > ul {
@@ -463,6 +471,12 @@
 
   header > ul > li {
     padding: 10px;
+    font-size: 15px;
+    transition: font-size 2s;
+  }
+
+  header > ul > li:hover {
+    font-size: 30px;
   }
 
   a:link {
@@ -516,12 +530,19 @@
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
-    line-height: 60px;
+    line-height: 140%;
     display: flex;
     align-items: center;
     letter-spacing: 0.37px;
     color: #091e42;
     flex: none;
+    transition-property: color, font-size;
+    transition-duration: 2s;
+  }
+
+  .flexbox-item-1:hover {
+    color: green;
+    font-size: 70px;
   }
 
   .flexbox-item-2 {
