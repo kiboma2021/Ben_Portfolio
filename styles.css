@@ -36,13 +36,17 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
-
-    /* identical to box height, or 111% */
     display: flex;
     align-items: center;
     text-align: center;
     color: #6070ff;
     flex: none;
+    transition: font-size 2s;
+  }
+
+  .logo:hover {
+    color: red;
+    font-size: 36px;
   }
 
   .flex {
@@ -446,6 +450,12 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
+    transition: font-size 2s;
+  }
+
+  .logo:hover {
+    color: red;
+    font-size: 36px;
   }
 
   header > ul {
@@ -462,10 +472,17 @@
 
   header > ul > li {
     padding: 10px;
+    font-size: 15px;
+    transition: font-size 2s;
   }
 
   a:link {
     text-decoration: none;
+  }
+
+  header > ul >li :hover {
+    color: red;
+    font-size: 30px;
   }
 
   article {
