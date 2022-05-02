@@ -3,8 +3,8 @@
 }
 
 html {
-  font-family: "Poppins", sans-serif;
-  background: #E5E5E5;
+  font-family: Poppins, sans-serif;
+  background: #e5e5e5;
 }
 
 header {
@@ -12,7 +12,7 @@ header {
   padding: 15px;
   display: flex;
   justify-content: space-between;
-  align-items:flex-start;
+  align-items: flex-start;
 }
 
 .logo {
@@ -48,6 +48,7 @@ header li {
 [class*="col-"] {
   float: left;
   padding: 15px;
+  width: 100%;
 }
 
 article {
@@ -63,18 +64,18 @@ article {
 }
 
 .intro1 {
-  padding: 20% 20% 0% 20%;
+  padding: 20% 20% 0%;
   font-weight: 700;
   font-size: 48px;
   line-height: 125%;
   display: flex;
   align-items: center;
   letter-spacing: 0.37px;
-  color: #091E42;
+  color: #091e42;
 }
 
 .intro2 {
-  padding: 0% 20% 0% 20%;
+  padding: 0% 20%;
   font-weight: 400;
   font-size: 20px;
   line-height: 140%;
@@ -84,15 +85,15 @@ article {
 }
 
 .social-pages1 {
-  padding: 0% 20% 0% 20%;
+  padding: 0% 20%;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
-  color: #7F8CFF;
+  color: #7f8cff;
 }
 
 .social-pages2 {
-  padding: 0% 20% 0% 20%;
+  padding: 0% 20%;
 }
 
 .social-pages2 a {
@@ -101,7 +102,7 @@ article {
 
 section {
   margin: 10%;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-radius: 24px;
   background: #fff;
 }
@@ -126,7 +127,7 @@ section {
   font-weight: 700;
   font-size: 40px;
   line-height: 130%;
-  color: #091E42;
+  color: #091e42;
 }
 
 .page2-4 a {
@@ -137,14 +138,14 @@ section {
 }
 
 .bullet1 {
-  color: #6B778C;
+  color: #6b778c;
 }
 
 .bullet {
   font-weight: 500;
   font-size: 18px;
   line-height: 133%;
-  color: #344563;;
+  color: #344563;
 }
 
 .page2-5 {
@@ -165,21 +166,21 @@ section {
 .page2-6 a {
   display: flex;
   flex-direction: row;
-  align-items:flex-start;
-  padding: 4px 12px;  
+  align-items: flex-start;
+  padding: 4px 12px;
   margin-right: 10px;
   font-weight: 500;
   font-size: 12px;
   line-height: 133%;
   letter-spacing: 0.03em;
   border-radius: 8px;
-  background: #EBEBFF;
-  color: #6070FF;
+  background: #ebebff;
+  color: #6070ff;
 }
 
 button {
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 8px;
   font-weight: 500;
   font-size: 17px;
@@ -188,10 +189,9 @@ button {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #396DF2;
+  color: #396df2;
   padding: 5px;
-  margin: 20px 20px 20px 0px;
-
+  margin: 20px 20px 20px 0;
 }
 
 button:hover {
@@ -203,7 +203,7 @@ button:hover {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
-  color: #7F8CFF;
+  color: #7f8cff;
   padding-bottom: 20px;
 }
 
@@ -218,7 +218,7 @@ button:hover {
 }
 
 .flexbox-item4-1 {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -233,22 +233,21 @@ button:hover {
 
 .about {
   margin: 0%;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   background: #fff;
 }
 
 .lang1 {
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   flex: none;
   margin: 12px;
 }
 
 .lang2 {
-  margin:12px;
+  margin: 12px;
   color: #253858;
   align-items: center;
-
 }
 
 .contact-container {
@@ -264,7 +263,7 @@ button:hover {
 .contact-item-1 {
   position: static;
   width: 40%;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -282,7 +281,7 @@ button:hover {
   width: 30%;
   left: 116px;
   top: 68px;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -302,8 +301,8 @@ button:hover {
 }
 
 .form-btn {
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 8px;
   font-weight: 500;
   font-size: 17px;
@@ -312,7 +311,7 @@ button:hover {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #396DF2;
+  color: #396df2;
   padding: 5px;
   margin-left: 20%;
 }
@@ -335,25 +334,20 @@ button:hover {
   display: none;
 }
 
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
-}
-
 /* Desktop */
 @media only screen and (min-width: 768px) {
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;} 
-  .mobile {display: none;}
-  .desktop {display: flex;}
+  .col-1 { width: 8.33%; }
+  .col-2 { width: 16.66%; }
+  .col-3 { width: 25%; }
+  .col-4 { width: 33.33%; }
+  .col-5 { width: 41.66%; }
+  .col-6 { width: 50%; }
+  .col-7 { width: 58.33%; }
+  .col-8 { width: 66.66%; }
+  .col-9 { width: 75%; }
+  .col-10 { width: 83.33%; }
+  .col-11 { width: 91.66%; }
+  .col-12 { width: 100%; }
+  .mobile { display: none; }
+  .desktop { display: flex; }
 }
