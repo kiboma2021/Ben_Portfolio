@@ -52,7 +52,7 @@ header li {
 }
 
 article {
-  background-image: url("imgs/background-desktop.png");
+  background-image: url("./imgs/background-desktop.png");
   border-bottom-left-radius: 80px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
