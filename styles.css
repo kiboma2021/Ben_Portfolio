@@ -258,6 +258,9 @@ button:hover {
   justify-content: center;
   align-items: center;
   border-top-left-radius: 80px;
+  background-image: url(./imgs/contact-background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .contact-item-1 {
@@ -350,4 +353,11 @@ button:hover {
   .col-12 { width: 100%; }
   .mobile { display: none; }
   .desktop { display: flex; }
+}
+
+.contact-container {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-size: 100% 100%;
 }
