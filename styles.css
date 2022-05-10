@@ -69,18 +69,6 @@ li {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-.nav_menu {
-  position:fixed;
-  left: -100%;
-  top: 70px;
-  gap: 0;
-  flex-direction: column;
-  background-color: black;
-  width: 100%;
-  text-align: center;
-  transition: 0.3s;
-}
-
 .nav_item {
   margin: 16px 0;
 }
@@ -381,6 +369,20 @@ button:hover {
 }
 
 
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  .nav_menu {
+    position:fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+}
 /* Desktop */
 @media only screen and (min-width: 768px) {
   .col-1 { width: 8.33%; }
