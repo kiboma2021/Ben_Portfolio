@@ -33,7 +33,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2px 24px 24px 24px;
+  padding: 0px 24px 24px 24px;
 }
 
 .nav_link {
@@ -45,7 +45,7 @@ li {
   color: red;
 }
 
-.hamburger{
+.hamburger {
   display: block;
 }
 
@@ -58,16 +58,16 @@ li {
   background-color: #6070ff;
 }
 
-.hamburger.active .bar:nth-child(2){
+.hamburger.active .bar:nth-child(2) {
   opacity: 0;
 }
 
-.hamburger.active .bar:nth-child(1){
+.hamburger.active .bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
   background-color: #fff;
 }
 
-.hamburger.active .bar:nth-child(3){
+.hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
   background-color: #fff;
 }
@@ -79,6 +79,10 @@ li {
 .nav_menu.active {
   left: 0;
   height: 100vh;
+}
+
+.no-scroll {
+  overflow-y: hidden;
 }
 
 .row::after {
@@ -371,11 +375,10 @@ button:hover {
   color: #fff;
 }
 
-
 /* Mobile */
 @media only screen and (max-width: 768px) {
   .nav_menu {
-    position:fixed;
+    position: fixed;
     left: -100%;
     top: 0;
     gap: 0;
@@ -401,18 +404,42 @@ button:hover {
 }
 /* Desktop */
 @media only screen and (min-width: 768px) {
-  .col-1 { width: 8.33%; }
-  .col-2 { width: 16.66%; }
-  .col-3 { width: 25%; }
-  .col-4 { width: 33.33%; }
-  .col-5 { width: 41.66%; }
-  .col-6 { width: 50%; }
-  .col-7 { width: 58.33%; }
-  .col-8 { width: 66.66%; }
-  .col-9 { width: 75%; }
-  .col-10 { width: 83.33%; }
-  .col-11 { width: 91.66%; }
-  .col-12 { width: 100%; }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
   .hamburger {
     display: none;
     cursor: pointer;
@@ -433,7 +460,6 @@ button:hover {
   .nav_link {
     color: #344563;
   }
-
 }
 
 .conta2 {
