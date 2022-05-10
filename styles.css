@@ -38,6 +38,7 @@ li {
 
 .nav_link {
   transition: 0.7s ease;
+  color: #fff;
 }
 
 .nav_link:hover {
@@ -385,6 +386,17 @@ button:hover {
     transition: 0.3s;
     background-color: rgba(96, 112, 255, 0.9);
     backdrop-filter: blur(5px);
+    padding-top: 10%;
+  }
+
+  .nav_link {
+    transition: 0.7s ease;
+    color: #fff;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 138%;
+    display: flex;
+    align-items: center;
   }
 }
 /* Desktop */
@@ -412,7 +424,16 @@ button:hover {
     align-items: center;
     gap: 60px;
   }
-  
+
+  .nav_menu.active {
+    left: 0;
+    height: 60px;
+  }
+
+  .nav_link {
+    color: #344563;
+  }
+
 }
 
 .conta2 {
