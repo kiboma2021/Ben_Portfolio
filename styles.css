@@ -9,7 +9,7 @@ html {
 
 header {
   background-color: white;
-  padding: 15px;
+  padding: 0px 15px 15px 15px;
 }
 
 .logo {
@@ -33,7 +33,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px;
+  padding: 2px 24px 24px 24px;
 }
 
 .nav_link {
@@ -381,6 +381,20 @@ button:hover {
     width: 100%;
     text-align: center;
     transition: 0.3s;
+
+
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%; 
+
+
+
+
+
+
   }
 }
 /* Desktop */
