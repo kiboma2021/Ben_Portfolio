@@ -305,7 +305,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   border-top-left-radius: 80px;
-  background-image: url(./imgs/contact-background.png);
+  background-image: url(./imgs/contact-form-mobile.png);
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -465,6 +465,10 @@ button:hover {
   article {
     background-image: url("./imgs/background-desktop.png");
   } 
+
+  .contact-container {
+    background-image: url(./imgs/contact-background.png);
+  }
 }
 
 .conta2 {
