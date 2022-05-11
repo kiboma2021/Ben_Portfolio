@@ -9,7 +9,7 @@ html {
 
 header {
   background-color: white;
-  padding: 0px 15px 15px 15px;
+  padding: 15px 15px 15px 15px;
 }
 
 .logo {
@@ -65,6 +65,7 @@ li {
 .hamburger.active .bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
   background-color: #fff;
+  margin-top: 20px;
 }
 
 .hamburger.active .bar:nth-child(3) {
