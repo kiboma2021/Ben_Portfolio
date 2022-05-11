@@ -380,7 +380,7 @@ button:hover {
   .nav_menu {
     position: fixed;
     left: -100%;
-    top: 0;
+    top: -20px;
     gap: 0;
     flex-direction: column;
     width: 100%;
