@@ -239,3 +239,14 @@ function closeModal(modal) {
   overlay.classList.remove('active')
 }
 
+
+/* Validate Contact form */
+
+document.getElementById('upper').addEventListener('submit', (event) => {
+  const email = document.getElementById('email').value;
+  if (email !== email.toLowerCase()) {
+    event.preventDefault();
+    const emailError = document.getElementById('email-error');
+    emailError.classList.add('active');
+  }
+});

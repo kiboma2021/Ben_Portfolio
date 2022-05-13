@@ -66,7 +66,6 @@
       <div id="portfolio" class="portfolio">
 
       </div>
-      <button data-modal-target="#modal" >Open Modal</button>
 
       <div class="about" id="about">
         <div class="row">
@@ -152,7 +151,7 @@
         </div>
         <br />
         <div class="contact-item-3">
-          <form action="https://formspree.io/f/mqknglqn" method="post">
+          <form action="https://formspree.io/f/mqknglqn" method="post" id="upper">
             <label for="username">
               <input
                 class="form"
@@ -169,6 +168,7 @@
                 class="form"
                 type="email"
                 name="useremail"
+                id="email"
                 placeholder="Enter Email"
                 required
               />
@@ -183,14 +183,15 @@
                 placeholder="Write your message here"
                 maxlength="500"
                 required
-              ></textarea></label
-            ><br />
+              ></textarea></label><br />
+              <p id="email-error" class="error-message">
+                Your email should be written in lower case.
+              </p>
             <button class="form-btn" type="submit">Get it Touch</button> <br />
           </form>
         </div>
       </div>
     </footer>
-
 
     <div class="modal" id="modal">
       <div class="row">     
@@ -212,7 +213,7 @@
         />
       </div>
 
-        <div class="page2-5 col-6">
+        <div class="page2-5 col-7">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Eligendi soluta nostrum suscipit aperiam tempore recusandae! 
@@ -231,12 +232,14 @@
           <a href="#">css </a>
           <a href="#">javaScript </a>
         </div>
-        <div class="page2-2">
-          <button data-modal-target="#modal">See Project</button>
+        
+          <ul class="modal__btns">
+            <li><a class="btn btn-primary1" href="${modalCard.live}">See live <img src="./images/iconLive.svg" alt=""></a></li>
+            <li><a class="btn btn-primary1" href="${modalCard.source}">See Source <img src="./images/iconModalGitHub.svg" alt=""></a></li>
+          </ul>
         </div>
       </div>
     </div>
-
 
 
     <div id="overlay"></div>

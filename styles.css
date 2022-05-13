@@ -376,27 +376,43 @@ button:hover {
   color: #fff;
 }
 
+.error-message {
+  color: #fff;
+  display: none;
+}
+
+.error-message.active {
+  display: contents;
+}
 
 /* Pop Up window */
 
 .modal {
   position: fixed;
-  display: flex;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%) scale(0);
-  transition: 200ms ease-in-out;
+  transition: 20ms ease-in-out;
   border: 1px  solid black;
   border-radius: 10px;
-  z-index: 10;
+  z-index: 2;
   background-color: #fff;
   width: 85vw;
   height: 90vh;
-
 }
 
 .modal.active {
   transform: translate(-50%,-50%) scale(1);
+}
+
+.modal-container {
+  background-color: #fff;
+  width: 92%;
+  margin: 10px auto;
+
+  border-radius: 16px;
+  border: 1px solid #dfe1e6;
+  padding: 20px 16px;
 }
 
 .modal-header {
@@ -404,7 +420,6 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   padding-right:20px;
-  
 }
 
 .title {
@@ -430,7 +445,6 @@ button:hover {
   margin-top: -60px;
   padding-left: 40px;
 }
-
 
 .modal-body {
   padding: 15px 15px;
@@ -463,11 +477,12 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .image-popup {
-  width: 70%;
-  height: 70%;
+  width: 50vw;
+  height: 40vh;
 }
 
 /* Mobile */
