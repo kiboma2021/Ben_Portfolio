@@ -25,7 +25,7 @@ const $worksSection = document.getElementById('portfolio');
 
 const ProjectList = [
   {
-    title: 'Tonic',
+    title: 'Tonic 1',
     description: 'A daily selection of privately personalized reads; no accounts <br/> or sign-ups required. ',
     featureImg: 'imgs/Snapshoot_Portfolio.png',
     button: 'See Project',
@@ -36,7 +36,7 @@ const ProjectList = [
     },
   },
   {
-    title: 'Multi-Post Stories',
+    title: 'Multi-Post Stories 2',
     description: 'Experimental content creation feature that allows users to add\
     to an existing story over the course of a day without spamming\
     their friends.',
@@ -50,7 +50,7 @@ const ProjectList = [
     },
   },
   {
-    title: 'Facebook 360',
+    title: 'Facebook 360 3',
     description: 'Exploring the future of media in Facebook\'s first Virtual\
     Reality app; a place to discover and enjoy 360 photos and videos\
     on Gear VR.',
@@ -64,7 +64,7 @@ const ProjectList = [
     },
   },
   {
-    title: 'Uber Navigation',
+    title: 'Uber Navigation 4',
     description: 'A smart assistant to make driving more safe, efficient, and fun \
     by unlocking your most expensive computer: your car.',
     featureImg: 'imgs/uber_navigation.png',
@@ -113,7 +113,7 @@ for (let i = 0; i < ProjectList.length; i++) {
             <a href="#">${ProjectList[i].tecnologies.thirdTec} </a>
           </div>
           <div class="page2-7">
-            <button data-modal-target=".modal">${ProjectList[i].button}</button>
+            <button data-modal-target=".modal" class="openModalTarget">${ProjectList[i].button}</button>
           </div>
         </div>
       </div>`;
@@ -142,7 +142,7 @@ for (let i = 0; i < ProjectList.length; i++) {
             <a href="#">${ProjectList[i].tecnologies.fourthTec} </a>
           </div>
           <div class="page2-7">
-            <button data-modal-target="#modal">${ProjectList[i].button}</button>
+            <button class="openModalTarget" data-modal-target="#modal">${ProjectList[i].button}</button>
           </div>
         </div>
         <div class="page2-1 col-6">
@@ -181,7 +181,7 @@ for (let i = 0; i < ProjectList.length; i++) {
           <a href="#">${ProjectList[i].tecnologies.fourthTec} </a>
         </div>
         <div class="page2-7">
-          <button data-modal-target="#modal">${ProjectList[i].button}</button>
+          <button class="openModalTarget" data-modal-target="#modal">${ProjectList[i].button}</button>
         </div>
       </div>
     </div>`;
@@ -190,11 +190,26 @@ for (let i = 0; i < ProjectList.length; i++) {
   }
 };
 
+const openModalB=document.querySelectorAll('.openModalTarget');
+console.log(openModalButtons)
+console.log(openModalB)
 
-openModalButtons.forEach(button => {
+
+/*openModalButtons.forEach(button => {
   button.addEventListener('click', () => {
   const modal = document.querySelector(button.dataset.modalTarget)
+  console.log("click in open modal")
     openModal(modal)
+    
+})
+})*/
+
+openModalB.forEach(button => {
+  button.addEventListener('click', () => {
+  const modal = document.querySelector(button.dataset.modalTarget)
+  console.log("click in open modal")
+    openModal(modal)
+    
 })
 })
 
