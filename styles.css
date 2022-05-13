@@ -470,6 +470,13 @@ button:hover {
   border: 1px solid #6070ff;
 }
 
+.modal-description {
+font-weight: 400;
+font-size: 16px;
+line-height: 188%;
+color: #344563;
+}
+
 #overlay {
  opacity: 0;
  position: fixed;

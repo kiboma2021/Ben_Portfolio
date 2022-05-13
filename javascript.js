@@ -25,7 +25,7 @@ const $worksSection = document.getElementById('portfolio');
 
 const ProjectList = [
   {
-    title: 'Tonic 1',
+    title: 'Tonic',
     description: 'A daily selection of privately personalized reads; no accounts <br/> or sign-ups required. ',
     featureImg: 'imgs/Snapshoot_Portfolio.png',
     button: 'See Project',
@@ -36,7 +36,7 @@ const ProjectList = [
     },
   },
   {
-    title: 'Multi-Post Stories 2',
+    title: 'Multi-Post Stories',
     description: 'Experimental content creation feature that allows users to add\
     to an existing story over the course of a day without spamming\
     their friends.',
@@ -50,7 +50,7 @@ const ProjectList = [
     },
   },
   {
-    title: 'Facebook 360 3',
+    title: 'Facebook 360',
     description: 'Exploring the future of media in Facebook\'s first Virtual\
     Reality app; a place to discover and enjoy 360 photos and videos\
     on Gear VR.',
@@ -64,7 +64,7 @@ const ProjectList = [
     },
   },
   {
-    title: 'Uber Navigation 4',
+    title: 'Uber Navigation',
     description: 'A smart assistant to make driving more safe, efficient, and fun \
     by unlocking your most expensive computer: your car.',
     featureImg: 'imgs/uber_navigation.png',
