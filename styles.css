@@ -54,7 +54,7 @@ li {
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   background-color: #6070ff;
 }
 
@@ -398,7 +398,8 @@ button:hover {
   z-index: 2;
   background-color: #fff;
   width: 85vw;
-  height: 90vh;
+
+ 
 }
 
 .modal.active {
@@ -420,6 +421,7 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   padding-right:20px;
+
 }
 
 .title {
@@ -446,8 +448,26 @@ button:hover {
   padding-left: 40px;
 }
 
+
 .modal-body {
-  padding: 15px 15px;
+  padding: 0px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-aside{
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__btns{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.modal__btns > a{
+  border: 1px solid #6070ff;
 }
 
 #overlay {
@@ -577,6 +597,22 @@ button:hover {
 
   .contact-container {
     background-image: url(./imgs/contact-background.png);
+  }
+
+  .modal-body {
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .modal-aside{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image-popup {
+    min-width: 100%;
+    min-height: 80%;
   }
 }
 
