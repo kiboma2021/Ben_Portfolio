@@ -1,24 +1,24 @@
-/* eslint-env node */
-const hamBug = document.querySelector('.hamburger');
-const navMenu = document.querySelector('.nav_menu');
-const body = document.querySelector('body');
+const hamBug = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav_menu");
+const body = document.querySelector("body");
 
-const closeModalButtons = document.querySelectorAll('[data-close-button]');
-const overlay = document.getElementById('overlay');
+const closeModalButtons=document.querySelectorAll('[data-close-button]');
+const overlay=document.getElementById('overlay');
 
-hamBug.addEventListener('click', () => {
-  hamBug.classList.toggle('active');
-  navMenu.classList.toggle('active');
-  body.classList.toggle('no-scroll');
+hamBug.addEventListener("click", () => {
+  hamBug.classList.toggle("active");
+  navMenu.classList.toggle("active");
+  body.classList.toggle("no-scroll");
 });
 
-document.querySelectorAll('.nav_link').forEach((n) =>
-  n.addEventListener('click', () => {
-    hamBug.classList.remove('active');
-    navMenu.classList.remove('active');
-    body.classList.remove('no-scroll');
+document.querySelectorAll(".nav_link").forEach((n) =>
+  n.addEventListener("click", () => {
+    hamBug.classList.remove("active");
+    navMenu.classList.remove("active");
+    body.classList.remove("no-scroll");
   })
 );
+
 
 const $worksSection = document.getElementById('portfolio');
 
@@ -236,3 +236,30 @@ document.getElementById('upper').addEventListener('submit', (event) => {
     emailError.classList.add('active');
   }
 });
+
+
+/* LOCAL STORAGE */
+const user=document.querySelector('#user');
+const email=document.querySelector('#email');
+const description=document.querySelector('#description');
+
+// Store data using localStorage
+function storeData() {
+  const userData = {
+    user : user.value,
+    email : email.value,
+    description : description.value,
+  };
+  localStorage.setItem('userData', JSON.stringify(userData));
+}
+
+// call storeData at every event
+user.addEventListener('keyup', storeData);
+email.addEventListener('keyup', storeData);
+description.addEventListener('keyup', storeData);
+
+/* Check for info in local-storage */
+const savedUserData = localStorage.getItem('userData');
+document.getElementById('user').value = JSON.parse(savedUserData).user;
+document.getElementById('email').value = JSON.parse(savedUserData).email;
+document.getElementById('description').value = JSON.parse(savedUserData).description;

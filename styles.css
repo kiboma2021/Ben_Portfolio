@@ -379,7 +379,7 @@ button:hover {
 }
 
 .error-message {
-  color: red;
+  color: #fff;
   display: none;
 }
 
