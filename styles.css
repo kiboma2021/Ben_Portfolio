@@ -495,7 +495,6 @@ button:hover {
 
 .blur {
   filter: blur(0.8rem);
-  filter: blur(0.8rem);
   background-color: rgb(0 0 0 / 50%);
 }
 
