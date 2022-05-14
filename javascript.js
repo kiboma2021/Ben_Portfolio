@@ -1,3 +1,4 @@
+/* eslint-env node */
 const hamBug = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav_menu');
 const body = document.querySelector('body');
