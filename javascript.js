@@ -1,25 +1,23 @@
-const hamBug = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav_menu");
-const body = document.querySelector("body");
+const hamBug = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav_menu');
+const body = document.querySelector('body');
 
-const openModalButtons=document.querySelectorAll('[data-modal-target]');
-const closeModalButtons=document.querySelectorAll('[data-close-button]');
-const overlay=document.getElementById('overlay');
+const closeModalButtons = document.querySelectorAll('[data-close-button]');
+const overlay = document.getElementById('overlay');
 
-hamBug.addEventListener("click", () => {
-  hamBug.classList.toggle("active");
-  navMenu.classList.toggle("active");
-  body.classList.toggle("no-scroll");
+hamBug.addEventListener('click', () => {
+  hamBug.classList.toggle('active');
+  navMenu.classList.toggle('active');
+  body.classList.toggle('no-scroll');
 });
 
-document.querySelectorAll(".nav_link").forEach((n) =>
-  n.addEventListener("click", () => {
-    hamBug.classList.remove("active");
-    navMenu.classList.remove("active");
-    body.classList.remove("no-scroll");
+document.querySelectorAll('.nav_link').forEach((n) =>
+  n.addEventListener('click', () => {
+    hamBug.classList.remove('active');
+    navMenu.classList.remove('active');
+    body.classList.remove('no-scroll');
   })
 );
-
 
 const $worksSection = document.getElementById('portfolio');
 
@@ -188,7 +186,7 @@ for (let i = 0; i < ProjectList.length; i++) {
     }
     $worksSection.appendChild(card);
   }
-};
+}
 
 const openModalB=document.querySelectorAll('.openModalTarget');
 
