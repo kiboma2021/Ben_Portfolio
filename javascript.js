@@ -237,3 +237,25 @@ document.getElementById('upper').addEventListener('submit', (event) => {
     emailError.classList.add('active');
   }
 });
+
+/* LOCAL STORAGE */
+const user=document.querySelector('#user');
+const email=document.querySelector('#email');
+const description=document.querySelector('#description');
+const btn=document.querySelector('button');
+
+document.getElementById('upper').addEventListener('submit', (event) => {
+  const dataObject = {
+    username: user.value,
+    email: email.value,
+    description: description.value
+  }
+  localStorage.setItem('contact_detail',JSON.stringify(dataObject));
+})
+
+window.addEventListener('load', ()=> {
+  const mydata=JSON.parse(localStorage.getItem('contact_detail'));
+  user.value=mydata.username;
+  email.value=mydata.email;
+  description.value=mydata.description;
+})
