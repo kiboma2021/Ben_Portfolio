@@ -244,8 +244,6 @@ const user=document.querySelector('#user');
 const email=document.querySelector('#email');
 const description=document.querySelector('#description');
 
-
-
 // Store data using localStorage
 function storeData() {
   const userData = {
