@@ -191,23 +191,10 @@ for (let i = 0; i < ProjectList.length; i++) {
 };
 
 const openModalB=document.querySelectorAll('.openModalTarget');
-console.log(openModalButtons)
-console.log(openModalB)
-
-
-/*openModalButtons.forEach(button => {
-  button.addEventListener('click', () => {
-  const modal = document.querySelector(button.dataset.modalTarget)
-  console.log("click in open modal")
-    openModal(modal)
-    
-})
-})*/
 
 openModalB.forEach(button => {
   button.addEventListener('click', () => {
   const modal = document.querySelector(button.dataset.modalTarget)
-  console.log("click in open modal")
     openModal(modal)
     
 })
