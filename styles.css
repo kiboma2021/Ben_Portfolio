@@ -16,7 +16,7 @@ header {
 }
 
 .logo {
-  color: #6070ff;
+  color: #172b4d;
   font-weight: 700;
   font-size: 18px;
   margin-left: 10%;
@@ -89,7 +89,7 @@ article {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
-  color: #7f8cff;
+  color: #172b4d;
 }
 
 .social-pages2 {
@@ -175,7 +175,7 @@ section {
   letter-spacing: 0.03em;
   border-radius: 8px;
   background: #ebebff;
-  color: #6070ff;
+  color: #172b4d;
 }
 
 button {
@@ -203,7 +203,7 @@ button:hover {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
-  color: #7f8cff;
+  color: #172b4d;
   padding-bottom: 20px;
 }
 
@@ -287,10 +287,10 @@ button:hover {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 140%;
   text-align: center;
-  color: #ebebff;
+  color: white;
 }
 
 .form {
@@ -355,7 +355,7 @@ button:hover {
   .desktop { display: flex; }
 }
 
-.contact-container {
+.conta2 {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

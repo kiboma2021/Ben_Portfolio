@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ben Omayio</title>
+  <title>Ben Omayio Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 
@@ -18,7 +18,7 @@
       <li><a href="#">About</a> </li>
       <li><a href="#">Contact</a> </li>
     </ul>
-    <a class="mobile" href="#"><img src="imgs/showhide_buttons.png" alt="" /></a>
+    <a class="mobile" href="#"><img src="imgs/showhide_buttons.png" alt="logo-picture" /></a>
   </header>
 
   <main>
@@ -236,7 +236,7 @@
 
   </main>
   <footer>
-    <div class="contact-container">
+    <div class="contact-container conta2">
       <div class="contact-item-1">
         <span>Contact me</span>
       </div>
@@ -246,10 +246,16 @@
       </div> <br>
       <div class="contact-item-3">
         <form action="https://formspree.io/f/mqknglqn" method="post">
-          <input class="form" type="text" name="username" maxlength="30" placeholder="Your name" required> <br>
-          <input class="form" type="email" name="useremail" placeholder="Enter Email" required> <br>
-          <textarea class="form" cols="30" name="description" rows="10" placeholder="Write your message here"
-            maxlength="500" required></textarea> <br>
+          <label for="username">
+            <input class="form" type="text" name="username" maxlength="30" placeholder="Your name" required>
+          </label> <br>
+          <label for="email">
+            <input class="form" type="email" name="useremail" placeholder="Enter Email" required>
+          </label> <br>
+          <label for="decription">
+            <textarea class="form" cols="30" name="description" rows="10" placeholder="Write your message here"
+              maxlength="500" required></textarea>
+          </label><br>
           <button class="form-btn" type="submit">Get it Touch</button> <br>
         </form>
       </div>
