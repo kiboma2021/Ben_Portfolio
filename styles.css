@@ -36,17 +36,13 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
+
+    /* identical to box height, or 111% */
     display: flex;
     align-items: center;
     text-align: center;
     color: #6070ff;
     flex: none;
-    transition: font-size 2s;
-  }
-
-  .logo:hover {
-    color: red;
-    font-size: 36px;
   }
 
   .flex {
@@ -116,6 +112,7 @@
     width: 375px;
     border-radius: 16px;
     padding: 16px;
+    column-gap: 1px;
   }
 
   .content {
@@ -451,6 +448,8 @@
     font-size: 18px;
     line-height: 20px;
     transition: font-size 2s;
+    transition-delay: 0s;
+    transition-duration: 2s;
   }
 
   .logo:hover {
@@ -476,13 +475,12 @@
     transition: font-size 2s;
   }
 
-  a:link {
-    text-decoration: none;
+  header > ul > li:hover {
+    font-size: 30px;
   }
 
-  header > ul >li :hover {
-    color: red;
-    font-size: 30px;
+  a:link {
+    text-decoration: none;
   }
 
   article {
@@ -492,6 +490,16 @@
     padding: 124px 24px 24px 24px;
     background-repeat: no-repeat;
     background-size: 100%;
+    animation-name: first-page;
+    animation-duration: 20s;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes first-page {
+    0% {background-color: #fff;}
+    25% {background-color: red;}
+    50% {background-color: green;}
+    75% {background-color: yellow;}
   }
 
   .flexbox-container {
@@ -507,7 +515,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 20px 20px 20px 0.01px;
+    box-sizing: border-box;
   }
 
   .flexbox-container-lang {
@@ -532,12 +540,19 @@
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
-    line-height: 60px;
+    line-height: 140%;
     display: flex;
     align-items: center;
     letter-spacing: 0.37px;
     color: #091e42;
     flex: none;
+    transition-property: color, font-size;
+    transition-duration: 2s;
+  }
+
+  .flexbox-item-1:hover {
+    color: green;
+    font-size: 70px;
   }
 
   .flexbox-item-2 {
@@ -550,10 +565,22 @@
     color: #344563;
     flex: none;
     flex-grow: 0;
+    background-color: white;
+    animation-name: intro;
+    animation-duration: 5s;
+  }
+
+  .flexbox-item-2:hover {
+    color: red;
+  }
+
+  @keyframes intro {
+    from {background-color: white;color: #344563;}
+    to {background-color: purple;color: white;}
   }
 
   .flexbox-item-3 {
-    width: 20%;
+    width: 63.89%;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -564,7 +591,7 @@
   }
 
   .flexbox-item-4 {
-    width: 80%;
+    width: 63.89%;
   }
 
   .flexbox-item-4 > a {
@@ -614,7 +641,7 @@
   }
 
   .flexbox-item2 {
-    width: 80%;
+    width: 100%;
     background-color: white;
     margin-left: 20px;
   }
@@ -648,7 +675,7 @@
   }
 
   .flexbox-item2-3 {
-    width: 88%;
+    width: 80%;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -668,7 +695,7 @@
   .flexbox-item2-4 > a {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     padding: 4px 12px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -677,7 +704,7 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     color: #6070ff;
-    margin-left: 10px;
+    margin-right: 10px;
     background: #ebebff;
     border-radius: 8px;
   }
@@ -748,6 +775,7 @@
   .flexbox-item4 {
     width: 80%;
     background-color: white;
+    align-items: flex-start;
   }
 
   .flexbox-item4-1 {
@@ -757,7 +785,7 @@
     font-size: 20px;
     line-height: 24px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     color: #344563;
     justify-content: space-between;
     padding: 20px 20px 20px 0.01px;
@@ -774,7 +802,6 @@
   }
 
   .grid-item {
-    position: static;
     width: 40%;
     height: 120%;
     background: #f7f7f9;
@@ -782,7 +809,6 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0.01px 12px;
   }
 
   .images1 {
