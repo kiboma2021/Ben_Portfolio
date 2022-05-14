@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-plugin-react": "^7.29.4",
+    "stylelint": "^14.8.1",
+    "stylelint-config-standard": "^25.0.0"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-peer": "^0.2.6"
+  }
+}
