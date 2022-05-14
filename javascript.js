@@ -2,7 +2,6 @@ const hamBug = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav_menu");
 const body = document.querySelector("body");
 
-const openModalButtons=document.querySelectorAll('[data-modal-target]');
 const closeModalButtons=document.querySelectorAll('[data-close-button]');
 const overlay=document.getElementById('overlay');
 
@@ -188,7 +187,7 @@ for (let i = 0; i < ProjectList.length; i++) {
     }
     $worksSection.appendChild(card);
   }
-};
+}
 
 const openModalB=document.querySelectorAll('.openModalTarget');
 
