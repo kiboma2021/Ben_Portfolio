@@ -389,7 +389,7 @@ button:hover {
 
 .modal {
   position: fixed;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%,-50%) scale(0);
   transition: 20ms ease-in-out;
@@ -398,8 +398,9 @@ button:hover {
   z-index: 2;
   background-color: #fff;
   width: 85vw;
-
- 
+  height: 100vh;
+  overflow-y: scroll;
+  padding-bottom: 20px;
 }
 
 .modal.active {
@@ -410,7 +411,6 @@ button:hover {
   background-color: #fff;
   width: 92%;
   margin: 10px auto;
-
   border-radius: 16px;
   border: 1px solid #dfe1e6;
   padding: 20px 16px;
@@ -610,11 +610,14 @@ color: #344563;
     padding: 0px 15px;
     display: flex;
     flex-direction: row;
+    width: 90%;
   }
   
   .modal-aside{
     display: flex;
     flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .image-popup {
