@@ -238,24 +238,33 @@ document.getElementById('upper').addEventListener('submit', (event) => {
   }
 });
 
+
 /* LOCAL STORAGE */
 const user=document.querySelector('#user');
 const email=document.querySelector('#email');
 const description=document.querySelector('#description');
-const btn=document.querySelector('button');
 
-document.getElementById('upper').addEventListener('submit', (event) => {
-  const dataObject = {
-    username: user.value,
-    email: email.value,
-    description: description.value
-  }
-  localStorage.setItem('contact_detail',JSON.stringify(dataObject));
-})
+const userData = {
+  user: 'user',
+  email: 'email',
+  description: 'description',
+};
 
-window.addEventListener('load', ()=> {
-  const mydata=JSON.parse(localStorage.getItem('contact_detail'));
-  user.value=mydata.username;
-  email.value=mydata.email;
-  description.value=mydata.description;
-})
+// Store data using localStorage
+function storeData() {
+  userData.user = user.value;
+  userData.email = email.value;
+  userData.description = description.value;
+  localStorage.setItem('userData', JSON.stringify(userData));
+}
+
+// call storeData at every event
+user.addEventListener('keyup', storeData);
+email.addEventListener('keyup', storeData);
+description.addEventListener('keyup', storeData);
+
+/* Check for info in local-storage */
+const savedUserData = localStorage.getItem('userData');
+document.getElementById('user').value = JSON.parse(savedUserData).user;
+document.getElementById('email').value = JSON.parse(savedUserData).email;
+document.getElementById('description').value = JSON.parse(savedUserData).description;
