@@ -244,17 +244,15 @@ const user=document.querySelector('#user');
 const email=document.querySelector('#email');
 const description=document.querySelector('#description');
 
-const userData = {
-  user: 'user',
-  email: 'email',
-  description: 'description',
-};
+
 
 // Store data using localStorage
 function storeData() {
-  userData.user = user.value;
-  userData.email = email.value;
-  userData.description = description.value;
+  const userData = {
+    user : user.value,
+    email : email.value,
+    description : description.value,
+  };
   localStorage.setItem('userData', JSON.stringify(userData));
 }
 
